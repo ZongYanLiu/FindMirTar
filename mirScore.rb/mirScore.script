@@ -1,0 +1,11 @@
+awk '{if ($2 == "-") print $0 $5}' $@ > $@tmp-
+awk '{if ($2 == "+") print $0 $5}' $@ > $@tmp+
+
+
+
+ruby ./mirScore.rb/tool/mirScore-+.rb $@tmp- > $@tmpa
+ruby ./mirScore.rb/tool/mirScore+-.rb $@tmp+ > $@tmpb
+
+cat $@tmpa $@tmpb >$@.target.predict.tsv
+
+rm -f $@tmp*
