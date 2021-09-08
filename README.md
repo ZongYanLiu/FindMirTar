@@ -3,7 +3,7 @@ Compute the correlation between microRNA and target.
 
 A tool to collate microRNA with transcriptome data. The output files are concurrent with MirTarSite obligatory input format. Conflate the sequencing data and deep-learning method to predict microRNA target.
 
-## Inroduction
+## Introduction
 MicroRNAs are a non-coding RNA in Eukaryota. Manifestly function as regulate transcriptional and translational programs by base pairing. They modulate biological processes, such as development, proliferation, and defense mechanism. Hence, apprehend the target of microRNAs could elevate gene expression research. 
 
 Previous studies showed that one microRNA confine different genes. Experiment, however, could not freely express determinate target results without sequencing data. In addition, it is important for researchers to analyze these data with an accurate and effectual method.
