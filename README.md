@@ -8,7 +8,7 @@ MicroRNAs are a non-coding RNA in Eukaryota. Manifestly function as regulate tra
 
 Previous studies showed that one microRNA confine different genes. Experiment, however, could not freely express determinate target results without sequencing data. In addition, it is important for researchers to analyze these data with an accurate and effectual method.
 
-What follows is a outline of PreMirTar scoring method to predict target gene. If there is a mismatch, A pairing to G or C pairing to T, for example, the penalty score will increase 1 point. Other mismatch, such as G:U wobble, will increase 0.5 point.
+What follows is a outline of FindMirTar scoring method to predict target gene. If there is a mismatch, A pairing to G or C pairing to T, for example, the penalty score will increase 1 point. Other mismatch, such as G:U wobble, will increase 0.5 point.
 
 ### Predict microRNA Target
 #### Requirements
