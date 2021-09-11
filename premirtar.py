@@ -80,7 +80,7 @@ with open(args.miRNA) as file, open(args.transcritome) as file:
 
     print("===============================================\nAnalyzing with MirTarSite...")
     if __name__=='__main__':
-        os.system("python3 %s/mirtarsite/custom_predict.py %s/mirtarsite/b16_lr0.001_embd100_rnnlayer1_rnnhidden100_drop0.3_ep47.pth %s/output/all_mir.fa %s/output/all_site.fa %s/output/interaction_pair.txt %s/mirtarsite/output_result.txt --cuda True" %(pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute()))   
+        os.system("python3 %s/mirtarsite/custom_predict.py %s/mirtarsite/model/b16_lr0.001_embd100_rnnlayer1_rnnhidden100_drop0.3_ep47.pth %s/output/all_mir.fa %s/output/all_site.fa %s/output/interaction_pair.txt %s/mirtarsite/output_result.txt --cuda True" %(pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute(), pathlib.Path().absolute()))   
     df = pd.read_csv("%s/mirtarsite/output_result.txt" %(pathlib.Path().absolute()), sep="\t", names = ["microRNA", "target", "prediction"])
     pd.set_option('display.max_rows', None,'display.max_colwidth', None)
     df[df["prediction"] == 1].to_csv("%s/output/mirTarget_result_success.txt" %(pathlib.Path().absolute()), sep = "\t")
