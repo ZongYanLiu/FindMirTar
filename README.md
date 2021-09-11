@@ -53,12 +53,11 @@ GCCCTCTGCCTGTAG
 ```
 
 #### Usage
-Please make sure BOWTIE is added in your 'PATH' and MirTarSite folder is under the premirtar
+Please make sure BOWTIE is added in your 'PATH' and MirTarSite folder is under the findmirtar
 ```
-python premirtar.py [-h] FULL-PATH-TO-microRNA-FASTA-FILE FULL-PATH-TO-TRANSCRIPTOME-FASTA-FILE
+python3 findmirtar.py [-h] FULL-PATH-TO-microRNA-FASTA-FILE FULL-PATH-TO-TRANSCRIPTOME-FASTA-FILE
 
-miRTarget
-Tools to combine psRNAtarget and MirTarSite
+A brand new approach to find microRNA targets.
 Please type in the full path of miRNA and transcriptome data for analyzing!
 
 positional arguments:
