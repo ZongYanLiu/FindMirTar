@@ -115,7 +115,7 @@ def main():
         device= torch.device("cpu")
 
     if args.model_type=='similarity matrix':
-        from reproduce.models import SimilarityMatrixMask
+        from model.models import SimilarityMatrixMask
         modelclassify=SimilarityMatrixMask(5,args.rnn_hidden,args.embedding_hidden,args.rnn_layer,args.class_dropout,device=device).double().to(device)
 
     modelclassify.load_state_dict(torch.load(args.state_dict_file, map_location=device))
