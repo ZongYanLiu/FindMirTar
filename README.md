@@ -1,4 +1,4 @@
-# PreMirTar
+# FindMirTar
 Compute the correlation between microRNA and target.
 
 A tool to collate microRNA with transcriptome data. The output files are concurrent with MirTarSite obligatory input format. Conflate the sequencing data and deep-learning method to predict microRNA target.
@@ -17,7 +17,6 @@ What follows is a outline of PreMirTar scoring method to predict target gene. If
 * pandas
 * ruby
 * Bowtie (http://bowtie-bio.sourceforge.net/)
-* MirTarSite (https://github.com/Samuel1043/mirtarsite)
 
 #### Input 
 * microRNA fasta file
