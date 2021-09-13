@@ -14,16 +14,16 @@ ARGF.each do |elem|
 
     pos = mismatch.split(':').first.to_f + 1
     case pos
-    when 9, 10, 11
-      if mismatch =~ /(G>A)|(T>C)/
+    when 2..8
+      if mismatch =~ /(T>G)|(G>T)/
         mimic[0] += 1
-        pan_score += 0.5
+        pan_score += 1
       else
         mimic[1] += 1
-        pan_score += 1
+        pan_score += 2
       end
-    when 1..8
-      if mismatch =~ /(G>A)|(T>C)/
+    when 1
+      if mismatch =~ /(T>G)|(G>T)/
         p5[0] += 1
         pan_score += 0.5
       else
@@ -31,7 +31,7 @@ ARGF.each do |elem|
         pan_score += 1
       end
     else
-      if mismatch =~ /(G>A)|(T>C)/
+      if mismatch =~ /(T>G)|(G>T)/
         p3[0] += 1
         pan_score += 0.5
       else
@@ -42,7 +42,7 @@ ARGF.each do |elem|
 
   end
 
-  next if pan_score > 4
+  next if pan_score > 6
 
   # print result
 
