@@ -87,4 +87,4 @@ with open(args.miRNA) as file, open(args.transcritome) as file:
     df[df["prediction"] == 0].to_csv("%s/output/mirTarget_result_false.txt" %(pathlib.Path().absolute()), sep = "\t")
     os.system("rm ./output/*.fa")
     os.system("rm ./output/interaction_pair.txt")
-    print("Successfully analyze with miRTarget!\nYou can find your result at :%s/output/" %(pathlib.Path().absolute()))
+    print("Successfully analyze with FindMirTar!\nYou can find your result at :%s/output/" %(pathlib.Path().absolute()))
