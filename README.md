@@ -1,4 +1,4 @@
-# ![image](https://user-images.githubusercontent.com/46125604/138191500-73314f18-340f-4ad8-8dd4-5527cd1b805b.png)STIG
+# ![image](https://user-images.githubusercontent.com/46125604/138191549-daefdfba-160d-4930-9c8e-6f9f75bc8512.png)STIG
 
 STIG compute the microRNA's target in seconds.
 
