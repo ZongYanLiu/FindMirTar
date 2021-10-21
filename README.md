@@ -1,4 +1,4 @@
-# ![image](https://user-images.githubusercontent.com/46125604/138191652-efb48ab3-549a-43ae-93a8-1998791f5406.png)STIG Seek Target In Genome of human microRNA
+# ![image](https://user-images.githubusercontent.com/46125604/138191881-7f1ebfe8-e360-432b-af02-b13a5c31105c.png)STIG Seek Target In Genome of human microRNA
 
 STIG compute the microRNA's target in seconds.
 
