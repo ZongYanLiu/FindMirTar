@@ -1,5 +1,6 @@
-# FindMirTar
-Compute the correlation between microRNA and target.
+# ![image](https://user-images.githubusercontent.com/46125604/138190890-d894592d-993d-4e26-a34c-3e26d776157a.png)STIG
+
+STIG compute the microRNA's target in seconds.
 
 A tool to collate microRNA with transcriptome data. The output files are concurrent with MirTarSite obligatory input format. Conflate the sequencing data and deep-learning method to predict microRNA target.
 
