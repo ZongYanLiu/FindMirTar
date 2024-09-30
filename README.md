@@ -1,6 +1,6 @@
 # ![image](https://user-images.githubusercontent.com/46125604/138192070-b455938e-1942-4f45-8266-c334f153fe51.png)MirTarSite: Identifying Targets of MicroRNA by Deep Learning
 
-STIG compute the microRNA's target in seconds.
+MirTarSite compute the microRNA's target in seconds.
 
 A tool to collate microRNA with transcriptome data. The output files are concurrent with MirTarSite obligatory input format. Conflate the sequencing data and deep-learning method to predict microRNA target.
 
